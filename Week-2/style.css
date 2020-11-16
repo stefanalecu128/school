@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Layout */
+
+.flex-container  {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-main {
+    max-width: 32%;
+    padding: 2rem 1rem;
+}
+.align-center {
+    text-align: center;
+}
+.img-thumb {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.product-rate {
+    margin-bottom: 2.375rem;
+}
+.product-buttons {
+    margin: 2.375rem;
+}
+/* Typhography */
+
+h2.product-title {
+    font-size: 1.75rem;
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+}
+.text-muted {
+    color: #808080;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ICONS */
+
+.fa-star,
+.fa-heart {
+    color:#E9ECEF;
+    margin:0 0.5rem;
+    font-size: 1.5rem;
+}
+.fa-star:hover {
+    color:#F69C2D;
+}
+.fa-heart:hover {
+    color:#EF3C36;
+}
+.active-star {
+    color:#F69C2D;
+}
+.active-heart {
+    color:#EF3C36;
+}
+
+/* Buttons */
+
+.btn-default {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.6rem 1.6rem;
+}
+.btn-default:first-child {
+        margin-right: 1rem;
+}
+.btn-dark {
+    background: #000;
+    border: 3px solid #000;
+    color: #fff;
+}
+.btn-dark:hover {
+    border: 3px solid #000;
+    color: #000;
+    background: #fff;
+}
+.btn-white {
+    border: 3px solid #000;
+    color: #000;
+}
+.btn-white:hover {
+    background: #000;
+    border: 3px solid #000;
+    color: #fff;
+}
+@media only screen and (max-width: 1079px) {
+    .btn-default {
+        display: block;
+        margin-bottom: 0.4em;
+    }
+    .btn-default:first-child {
+        margin-right: 0;
+}
+}
