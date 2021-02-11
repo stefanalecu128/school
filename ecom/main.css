@@ -73,10 +73,19 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+.logo-mobile {
+  display: none;
+}
 
 @media only screen and (min-width: 768px) {
     .mobile-menu, .mobile-menu-exit {
         display: none;
+    }
+    .logo-desk {
+      display:none;
+    }
+    .logo-mobile {
+      display: block;
     }
 }
 
