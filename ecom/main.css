@@ -78,7 +78,6 @@ nav ul li a:hover {
     .mobile-menu, .mobile-menu-exit {
         display: none;
     }
-    .n
 }
 
 
@@ -143,7 +142,7 @@ h1,h2,h3,h4,h5,h6 {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.card-middle h3, .card-middle h5, {
+.card-middle h3, .card-middle h5 {
   background-color: #4CAF50;
   color: white;
   font-size: 16px;
