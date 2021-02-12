@@ -9,22 +9,17 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  color: #1A202C;
 }
 
 .navbar {
     background: #fff;
     padding: 1rem;
-}
-.logo {
-    font-family: "Lexend Mega";
-    text-decoration: none;
-    color: #111;
-    font-size: 1.2rem;
 }
 nav {
    display: none;
@@ -94,30 +89,41 @@ nav ul li a:hover {
 .mt {
   margin-top:2rem;
 }
-p,h4,h5,h6 {
-  color: #BEB6B0;
-}
 h1 {
-  color: #413B89;
+  font-size: 2.25rem;
+}
+h2 {
+  font-size: 1.875rem;
 }
 h3 {
-  color: #333
+  font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
 }
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Lexend Giga";
+h4 {
+  font-size: 1.25rem;
 }
+h5 {
+  font-size: 1.125rem;
+}
+
+h1,h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
 .hero-container {
-  background:#F3E7DD;
-  padding: 1rem;
+  background:#F6F7FB;
+  padding-left: 1rem;
   padding-bottom: 1.8rem;
-  border-radius: 14px;
+  border-radius: 24px;
 }
 .btn {
+  font-weight: 500;
   padding: 0.785rem 1.2rem;
-  background: #C2A792;
+  background: #00BFA6;
   color: #fff;
   border: none;
-  border-radius: 6px;
+  border-radius: 24px;
   display:inline-block;
   text-decoration: none;
 }
