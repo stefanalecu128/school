@@ -180,6 +180,11 @@ h1,h2 {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .img-responsive {
+    display: none;
+  }
+}
 
 
 
