@@ -59,15 +59,15 @@ nav ul li {
     margin: 1rem;
     justify-content: center;
     align-items: center;
+    line-height: 3rem;
 }
 nav ul li a {
-    font-family: var(--menu-font);
-    letter-spacing: 0.25rem;
+    font-family: var(--normal-font);
+    font-weight: 600;
     text-decoration: none;
     color: rgba(255,255,255);
     display: block;
-    padding: 1rem;
-    font-size: 5rem;
+    font-size: 2.25rem;
     text-align: center;
     transition: 0.3s;
 }
