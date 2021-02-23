@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="grid.css"> -->
+    <link rel="stylesheet" href="bootstrap-grid.css">
+</head>
+<style>
+    :root {
+        --primary-color: #4C5059;
+        --secondary-color: #AAABB0;
+        --green-color: #00BFA6;
+    }
+    body {
+        font-family: "Playfair Display";
+        background-color: #F3F1F0;
+    }
+    .product__img {
+        width: 200px;
+        border: 1px solid #999;
+        padding: 1rem;
+        border-radius: 4px;
+    }
+    .img-resp {
+        width: 100%;
+        border-radius: 4px;
+    }
+    .mt {
+        margin-top: 5rem;
+    }
+    h2 {
+        color: #AAABB0;
+    }
+    .a-center {
+        text-align: center;
+    }
+    .card__img {
+        max-width: 291px;
+    }
+    .card {
+        display:flex;
+    }
+    .card__desc {
+        background-color: #fff;
+        width: 100%;
+        height: auto;
+        padding: 3rem;
+        margin: 3rem 0;
+        box-shadow: 0 0 15px 10px  rgba(0, 0, 0, 0.034);
+    }
+    h2.card__title {
+        font-size: 22px;
+        color: var(--primary-color);
+    }
+    h3.card__author {
+        color: var(--secondary-color);
+        font-style: italic;
+        font-weight: 400;
+        margin-bottom: 2.25rem;
+    }
+    p.card__description {
+        color: var(--secondary-color);
+        font-family: "Inter";
+    }
+    h4.card__price {
+        color: var(--green-color);
+        font-family: "Inter";
+    }
+    .btn-buy {
+       display: inline-block;
+       width: 100%;
+        font-weight: 400;
+        line-height: 1.5;
+        color:#fff;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        border-radius: .25rem;
+        background-color: var(--primary-color);
+        font-family: "Inter";
+    }
+    .hero {
+        background-color: #fff;
+        z-index: -99;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        top: 0;
+        left:0;
+    }
+    </style>
+<body>
+    <div class="hero"></div>
+        <div class="container a-center" style="margin-bottom: 5rem;">
+            <h1>
+                Discover tips, ideas, books lists and more for educators & families
+            </h1>
+            <h2>Thoughtfully create whit engaging stories & fun characters that your family will love!</h2>
+        </div>
+    </div>
+    <div class="features">
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5 offset-1">
+                        <div class="card">
+                            <img class="card__img" src="img/book-knowledge.png" alt="">
+                            <div class="card__desc">
+                                <h2 class="card__title">Harry Potter and the Chamber of Secrets</h2>
+                                <h3 class="card__author">J. K. Rowling</h3>
+                                <p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam suscipit vero fuga ab quia laborum.</p>
+                                <h4 class="card__price">$24</h4>
+                                <a href="" class="btn btn-buy">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 ">
+                        <div class="card">
+                            <img class="card__img" src="img/1.jpg" alt="">
+                            <div class="card__desc">
+                                <h2 class="card__title">Harry Potter and the Chamber of Secrets</h2>
+                                <h3 class="card__author">J. K. Rowling</h3>
+                                <p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam suscipit vero fuga ab quia laborum.</p>
+                                <h4 class="card__price">$24</h4>
+                                <a href="" class="btn btn-buy">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>              
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1">
+                    <div class="div" style="background: pink">aa</div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="div" style="background: pink">aa</div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="div" style="background: pink">aa</div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="div" style="background: pink">aa</div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="div" style="background: pink">aa</div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="div" style="background: pink">aa</div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="div" style="background: pink">aa</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- bootstrap-grid -->
+
+        <!-- <div class="test">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card__img" src="img/1.jpg" alt="">
+                            <div class="card__desc">
+                                <h2 class="card__title">Harry Potter and the Chamber of Secrets</h2>
+                                <h3 class="card__author">J. K. Rowling</h3>
+                                <p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam suscipit vero fuga ab quia laborum.</p>
+                                <h4 class="card__price">$24</h4>
+                                <a href="" class="btn btn-buy">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+    <!-- <div class="col-lg-2">
+        <div class="product">
+            <div class="product__img align-center">
+                <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/10/harry-potter-book-covers-illustration-olly-moss-7.jpg" alt="" class="img-resp">
+            </div>
+            <div class="product__details">
+                <h3>Harry Potter and the Prisoner of Azkaban</h3>
+                <h4>J.K. Rowling</h4>
+            </div>
+        </div>
+    </div> -->
+
+
+</body>
+</html>

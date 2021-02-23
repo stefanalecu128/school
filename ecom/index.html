@@ -3,19 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecom</title>
+    <title>BookStore</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Playfair+Display:wght@400;600;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
   </head>
 <body>
     <header class="navbar">
         <div class="container">
             <div class="logo-menu">
-                <img class="logo-desk" src="img/logo-mobile.svg" alt="">
-                <img class="logo-mobile" src="img/logo-desk.svg" alt="">
+                <img class="logo-mobile" src="img/logo-mobile.svg" alt="" >
                 <img src="img/menu.svg" alt="menu" id="mobile-cta" class="mobile-menu">
             </div>
             <nav>
@@ -29,105 +27,141 @@
             </nav>
         </div>
     </header>
-    <div class="mt"></div>
-    <div class="hero">
-      <div class="container hero-container">
-        <div class="row">
-          <div class="col-lg-5 col-md-6 col-sm-8 col-xs-6">
-            <h1>Build your library</h1>
-            <h4>Buy two selected books and get one for free</h4>
-            <a href="#" class="btn">View all</a>
+    <div class="hero"></div>
+        <div class="container">
+          <h1 class="primary-color mt-5 mb-3 center">Discover tips, ideas, books lists and more for educators & families</h1>
+          <h2 class="second-color mb-5 center">Thoughtfully create whit engaging stories & fun characters that your family will love!</h2>
+        </div>
+    
+    <!-- <div class="slider">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-lg-3">
+            <img class="card-img" src="img/5.jpg" alt="">
           </div>
-          <div class="col-lg-7 col-md-6 col-sm-4 col-xs-6">
-            <img class="img-responsive" src="https://svgshare.com/i/ToM.svg" alt="">
+          <div class="col-lg-3 custom">
+            <div class="div-custom">
+              <div class="card__desc">
+                <h3 class="card__title">Harry Potter and the Chamber of Secrets</h3>
+                <h4 class="card__author">J. K. Rowling</h4>
+                <p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam suscipit vero fuga ab quia laborum.</p>
+                <h4 class="card__price">$24</h4>
+                <a href="" class="btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row no-gutters">
+              <div class="col-lg-6">
+                <img class="card-img" src="img/5.jpg" alt="">
+              </div>
+              <div class="col-lg-6 custom">
+                <div class="div-custom">
+                  <div class="card__desc">
+                    <h3 class="card__title">Harry Potter and the Chamber of Secrets</h3>
+                    <h4 class="card__author">J. K. Rowling</h4>
+                    <p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam suscipit vero fuga ab quia laborum.</p>
+                    <h4 class="card__price">$24</h4>
+                    <a href="" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="feat">
+    </div> -->
+    <div class="book--popular">
       <div class="container">
-        <div class="align">
-          <h2>Popular Now</h2>
-          <a href="#" class="btn-link">View all</a>
+        <div class="mb-3">
+          <h2 class="primary-color sans-serif mb-5">Popular Now</h2>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="card">
-              <div class="card-image">
-                <div class="img-back">
-                  <img class="img-card" src="https://static.boredpanda.com/blog/wp-content/uploads/2016/10/harry-potter-book-covers-illustration-olly-moss-3.jpg" alt="">
-                </div>
-                <div class="card-middle">
-                  <p>Buy Now</p>
-                  <p>Add to favorites</p>
-                </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <div class="book-card">
+              <img class="card-img mb-5" src="img/1.jpg" alt="">
+              <div class="card-desc">
+                <h3 class="card__title mb-2">Harry Potter and the Chamber of Secrets</h3>
+                <h6 class="card__author">J. K. Rowling</h6>
+                <h4 class="card__price">24.00 Lei</h4>
               </div>
-              <div class="card-content">
-                <h3>Harry Potter and the Chamber of Secrets</h3>
-                <h5>J. K. Rowling</h5>
-              </h5>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <div class="book-card">
+            <img class="card-img mb-5" src="img/2.jpg" alt="">
+            <div class="card-desc">
+              <h3 class="card__title mb-2">Harry Potter and the Chamber of Secrets</h3>
+              <h6 class="card__author">J. K. Rowling</h6>
+              <h4 class="card__price">24.00 Lei</h4>
             </div>
           </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="card">
-              <img class="img-card" src="https://static.boredpanda.com/blog/wp-content/uploads/2016/10/harry-potter-book-covers-illustration-olly-moss-1.jpg" alt="">
-              <div class="card-content">
-                <h3>Harry Potter and the Prisoner of Azkaban</h3>
-                <h5>J. K. Rowling</h5>
-              </h5>
-            </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+        <div class="book-card">
+          <img class="card-img mb-5" src="img/3.jpg" alt="">
+          <div class="card-desc">
+            <h3 class="card__title mb-2">Harry Potter and the Chamber of Secrets</h3>
+            <h6 class="card__author">J. K. Rowling</h6>
+            <h4 class="card__price">24.00 Lei</h4>
           </div>
         </div>
-      
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="card">
-              <img class="img-card" src="https://static.boredpanda.com/blog/wp-content/uploads/2016/10/harry-potter-book-covers-illustration-olly-moss-6.jpg" alt="">
-              <div class="card-content">
-                <h3>Harry Potter and the Goblet of Fire</h3>
-                <h5>J. K. Rowling</h5>
-              </h5>
-            </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+        <div class="book-card">
+          <img class="card-img mb-5" src="img/4.jpg" alt="">
+          <div class="card-desc">
+            <h3 class="card__title mb-2">Harry Potter and the Chamber of Secrets</h3>
+            <h6 class="card__author">J. K. Rowling</h6>
+            <h4 class="card__price">24.00 Lei</h4>
           </div>
         </div>
-    
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="card">
-              <img class="img-card" src="https://static.boredpanda.com/blog/wp-content/uploads/2016/10/harry-potter-book-covers-illustration-olly-moss-7.jpg" alt="">
-              <div class="card-content">
-                <h3>Harry Potter and the Half-Blood Prince</h3>
-                <h5>J. K. Rowling</h5>
-              </h5>
-            </div>
-          </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+      <div class="book-card">
+        <img class="card-img mb-5" src="img/5.jpg" alt="">
+        <div class="card-desc">
+          <h3 class="card__title mb-2">Harry Potter and the Chamber of Secrets</h3>
+          <h6 class="card__author">J. K. Rowling</h6>
+          <h4 class="card__price">24.00 Lei</h4>
         </div>
-        
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="card">
-              <img class="img-card" src="https://static.boredpanda.com/blog/wp-content/uploads/2016/10/harry-potter-book-covers-illustration-olly-moss-2.jpg" alt="">
-              <div class="card-content">
-                <h3>Harry Potter and the Goblet of Fire</h3>
-                <h5>J. K. Rowling</h5>
-              </h5>
-            </div>
-          </div>
-        </div>
-    
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="card">
-              <img class="img-card" src="https://static.boredpanda.com/blog/wp-content/uploads/2016/10/harry-potter-book-covers-illustration-olly-moss-3.jpg" alt="">
-              <div class="card-content">
-                <h3>Harry Potter and the Half-Blood Prince</h3>
-                <h5>J. K. Rowling</h5>
-              </h5>
-            </div>
-          </div>
-        </div>
-
+      </div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+    <div class="book-card">
+      <img class="card-img mb-5" src="img/6.jpg" alt="">
+      <div class="card-desc">
+        <h3 class="card__title mb-2">Harry Potter and the Chamber of Secrets</h3>
+        <h6 class="card__author">J. K. Rowling</h6>
+        <h4 class="card__price">24.00 Lei</h4>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+    <div class="book-card">
+      <img class="card-img mb-5" src="img/not-facebook-the-book-262x375.png" alt="">
+      <div class="card-desc">
+        <h3 class="card__title mb-2">Harry Potter and the Chamber of Secrets</h3>
+        <h6 class="card__author">J. K. Rowling</h6>
+        <h4 class="card__price">24.00 Lei</h4>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+    <div class="book-card">
+      <img class="card-img mb-5" src="img/book-knowledge-1.png" alt="">
+      <div class="card-desc">
+        <h3 class="card__title mb-2">Harry Potter and the Chamber of Secrets</h3>
+        <h6 class="card__author">J. K. Rowling</h6>
+        <h4 class="card__price">24.00 Lei</h4>
+      </div>
+    </div>
+  </div>
       </div>
     </div>
    <script>
+
+  
     const mobileBtn = document.querySelector("#mobile-cta");
     let nav = document.querySelector("nav");
     let mobileBtnExit = document.querySelector("#mobile-exit");
