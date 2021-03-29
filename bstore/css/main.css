@@ -296,8 +296,24 @@
     margin: auto;
   }
 
-
-
+  .new-item {
+    margin-top: 2.5rem;
+    text-align: center;
+    background: var(--gray4);
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+  .add-new-item {
+    border: none;
+    outline: none;
+    background: var(--accentColor);
+    color: #fff;
+    padding: 0.6rem 0.875rem;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    
+  }
  /* --------------- Details Page ---------------- */
  .text-center {
    text-align: center;
@@ -345,7 +361,7 @@
   .btn-delete {
     border: none;
     outline: none;
-    background: #e07a5f;
+    background: var(--pink);
     color: #fff;
     padding: 0.6rem 0.875rem;
     border-radius: 4px;
@@ -354,7 +370,7 @@
   .btn-edit {
     border: none;
     outline: none;
-    background: #56a3a6;
+    background: var(--yellow);
     color: #fff;
     padding: 0.6rem 0.875rem;
     border-radius: 4px;
