@@ -69,7 +69,7 @@ function draw() {
             <span>${_product.price}</span>
           </div>
           <div class="product-details">
-            <a href="/detalii.html?id=${id}">Detalii</a>
+            <a href="/scoala-informala-frontend/bstore/detalii.html?id=${id}">Detalii</a>
           </div>
         </div>
         </div>
