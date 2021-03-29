@@ -302,6 +302,24 @@
     padding: 6rem 0;
     background: #fbe0dc;
   }
+  .qty-minus,
+  .qty-plus {
+    background: #bcbcbc;
+    padding: 0px 4px;
+    border-radius: 50px;
+    margin: 5px;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btn-add-cart {
+    border: none;
+    outline: none;
+    background: rgb(52, 63, 92);
+    color: #fff;
+    padding: 0.6rem 0.875rem;
+    border-radius: 4px;
+  }
 
   /* ---------------Product---------------- */
 
