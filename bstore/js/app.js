@@ -3,13 +3,15 @@ const hamburger = document.querySelector("#btnBurger");
 const header = document.querySelector(".header-content");
 
 
-hamburger.addEventListener("click", function() {
-  if (header.classList.contains("open")) {
-    header.classList.remove("open");
-  } else {
-    header.classList.add("open");
-  }
-});
+if (hamburger) {
+  hamburger.addEventListener("click", function() {
+    if (header.classList.contains("open")) {
+      header.classList.remove("open");
+    } else {
+      header.classList.add("open");
+    }
+  });
+}
 
 let product = [];
 
