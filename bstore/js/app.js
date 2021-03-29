@@ -26,7 +26,7 @@ init().then(() => {
   const path = window.location.pathname;
   let isDetails = false;
 
-  if (path === '/detalii.html') {
+  if (path === '/scoala-informala-frontend/bstore/detalii.html') {
     drawDetails();
     isDetails = true;
   } else {
@@ -299,14 +299,3 @@ function initCartButtons() {
     });
   };
 }
-
-{/* <div class="products-content">
-          <div class="img-product">
-            <img src="img/book-2.svg" alt="" class="d-img">
-          </div>
-            <div class="details-product">
-              <h2 class="d-title"></h2>
-              <p class="d-author"></p>
-              <p class="d-price"></p>
-            </div>
-        </div> */}
