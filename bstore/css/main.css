@@ -326,7 +326,45 @@
   }
   .product-inner-admin {
     display: flex;
+    align-items: center;
+    border: 1px solid #e6e6e6;
   }
+  .product-img-admin {
+    width: 10%;
+    padding: 1rem;
+  }
+  .btn-delete {
+    border: none;
+    outline: none;
+    background: #e07a5f;
+    color: #fff;
+    padding: 0.6rem 0.875rem;
+    border-radius: 4px;
+    margin: 0 1rem;
+  }
+  .btn-edit {
+    border: none;
+    outline: none;
+    background: #56a3a6;
+    color: #fff;
+    padding: 0.6rem 0.875rem;
+    border-radius: 4px;
+  }
+  
+
+
+
+
+  /* <div class="product-img-admin">
+          <img src="${_product.coverBook[0]}" alt="" class="img-resp" />
+        </div>
+        <div class="product-text">
+          <h3 class="product-text--admin">${_product.titleBook}</h3>
+          <p class="product-text--admin">${_product.authorBook}</p>
+          <div class="product-price-admin">
+            <span>${_product.price}</span>
+          </div> */
+
 
   /* ---------------Product---------------- */
 

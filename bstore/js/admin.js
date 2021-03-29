@@ -43,7 +43,7 @@ function drawAdmin() {
           </div>
           
         </div>
-        <a href="/scoala-informala-frontend/bstore/admin_item.html?id=${id}">Edit</a>
+        <a class="btn-edit" href="/scoala-informala-frontend/bstore/admin_item.html?id=${id}">Edit</a>
           <a class="btn-delete" href="" data-id="${id}">Delete</a>
         </div>
     `;
