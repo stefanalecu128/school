@@ -321,7 +321,7 @@
   .btn-add-cart {
     border: none;
     outline: none;
-    background: rgb(52, 63, 92);
+    background: var(--accentColor);
     color: #fff;
     padding: 0.6rem 0.875rem;
     border-radius: 4px;
