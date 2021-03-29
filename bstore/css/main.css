@@ -90,7 +90,7 @@
   .search-area {
     margin: 2rem auto;
     background: #fbe0dc;
-    background-image: url("/img/reading.svg");
+    background-image: url("../img/reading.svg");
     background-repeat: no-repeat;
     background-position: right bottom;
     border-radius: 40px;
