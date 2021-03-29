@@ -35,7 +35,7 @@ function drawAdmin() {
         <div class="product-img-admin">
           <img src="${_product.coverBook[0]}" alt="" class="img-resp" />
         </div>
-        <div class="product-text">
+        <div class="product-text-admin">
           <p class="product-text--admin">${_product.titleBook}</p>
           <p class="product-text--admin">${_product.authorBook}</p>
           <div class="product-price-admin">
