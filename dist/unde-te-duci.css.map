@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,SAAS,EAAC,GAAG;CAChB",
+    "sources": [
+        "../../../PROJECTS/bookstore/unde-te-duci.scss"
+    ],
+    "names": [],
+    "file": "unde-te-duci.css"
+}

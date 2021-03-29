@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStore</title>
+    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo-menu">
+                <img class="logo-mobile" src="img/logo-mobile.svg" alt="" >
+                <img src="img/menu.svg" alt="menu" id="mobile-cta" class="mobile-menu">
+            </div>
+            <nav>
+                <img src="img/close.svg" alt="menu" id="mobile-exit" class="mobile-menu-exit">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Admin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="red"></div>
+        </div>
+      </div>
+    </section>
+
+
+
+    
+  <script>
+
+  
+    const mobileBtn = document.querySelector("#mobile-cta");
+    let nav = document.querySelector("nav");
+    let mobileBtnExit = document.querySelector("#mobile-exit");
+
+    mobileBtn.addEventListener('click', () => {
+        nav.classList.add("mobile-btn");
+    })
+
+    mobileBtnExit.addEventListener('click', () => {
+        nav.classList.remove("mobile-btn");
+    })
+   </script>
+</body>
+</html>

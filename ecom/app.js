@@ -7,3 +7,5 @@
 // }
 // cos.push({produs:2,cantitate:7});
 // localStorage.setItem("cos", JSON.stringify(cos));
+
+

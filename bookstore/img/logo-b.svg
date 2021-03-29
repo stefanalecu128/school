@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="50.513" viewBox="0 0 180 50.513">
+  <g id="Group_22" data-name="Group 22" transform="translate(255 -703)">
+    <text id="store" transform="translate(-138 737)" fill="#444" font-size="30" font-family="LexendZetta-Regular, Lexend Zetta" opacity="0.1"><tspan x="-62.79" y="0">store</tspan></text>
+    <text id="store-2" data-name="store" transform="translate(-140 736)" fill="#111" font-size="30" font-family="LexendZetta-Regular, Lexend Zetta"><tspan x="-62.79" y="0">store</tspan></text>
+    <g id="Group_20" data-name="Group 20" transform="translate(-471.847 306.025)">
+      <g id="Group_15" data-name="Group 15" transform="translate(219.523 396.975)" opacity="0.44">
+        <path id="Path_62" data-name="Path 62" d="M240.6,447.487H218.737l21.46-50.513h21.864Z" transform="translate(-218.737 -396.975)" fill="#f68800"/>
+      </g>
+      <path id="Path_63" data-name="Path 63" d="M254.535,420.529a10.732,10.732,0,0,0-5.856-19.732H218.971l-2.124.017v4.166l2.041.081a6.481,6.481,0,0,1,0,12.953l-2.041.1v4.854l2.041.081a6.481,6.481,0,0,1,0,12.953l-2.041.1v4.166h31.832a10.733,10.733,0,0,0,5.856-19.733ZM227.2,405.045h21.482a6.492,6.492,0,1,1,0,12.984H227.2a10.782,10.782,0,0,0,0-12.984Zm21.482,30.969H227.2a10.782,10.782,0,0,0,0-12.984h21.482a6.492,6.492,0,1,1,0,12.984Z" transform="translate(0 1.59)" fill="#111"/>
+      <g id="Group_16" data-name="Group 16" transform="translate(238.579 411.584)">
+        <rect id="Rectangle_26" data-name="Rectangle 26" width="6.797" height="3.291" rx="1.646" fill="#040505"/>
+      </g>
+      <g id="Group_17" data-name="Group 17" transform="translate(238.579 429.467)">
+        <rect id="Rectangle_27" data-name="Rectangle 27" width="6.797" height="3.291" rx="1.646" fill="#040505"/>
+      </g>
+    </g>
+  </g>
+</svg>

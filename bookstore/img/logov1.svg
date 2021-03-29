@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="161" height="50.513" viewBox="0 0 161 50.513">
+  <g id="Group_23" data-name="Group 23" transform="translate(-659 -1224)">
+    <g id="Group_22" data-name="Group 22">
+      <path id="Path_66" data-name="Path 66" d="M240.6,447.487H218.737l21.46-50.513h21.864Z" transform="translate(442.939 827.025)" fill="#f0ac49"/>
+      <path id="Path_65" data-name="Path 65" d="M254.535,420.529a10.732,10.732,0,0,0-5.856-19.732H218.971l-2.124.017v4.166l2.041.081a6.481,6.481,0,0,1,0,12.953l-2.041.1v4.854l2.041.081a6.481,6.481,0,0,1,0,12.953l-2.041.1v4.166h31.832a10.833,10.833,0,0,0,10.667-9.478,9.56,9.56,0,0,0,.074-1.263A10.733,10.733,0,0,0,254.535,420.529ZM227.2,405.045h21.482a6.492,6.492,0,1,1,0,12.984H227.2a10.782,10.782,0,0,0,0-12.984Zm21.482,30.969H227.2a10.782,10.782,0,0,0,0-12.984h21.482a6.492,6.492,0,1,1,0,12.984Z" transform="translate(442.153 828.616)" fill="#111"/>
+      <rect id="Rectangle_38" data-name="Rectangle 38" width="6.797" height="3.291" rx="1.646" transform="translate(680.732 1238.61)" fill="#040505"/>
+      <rect id="Rectangle_39" data-name="Rectangle 39" width="6.797" height="3.291" rx="1.646" transform="translate(680.732 1256.492)" fill="#040505"/>
+    </g>
+    <text id="store" transform="translate(767 1257)" fill="#111" stroke="#111" stroke-width="1" font-size="30" font-family="LexendGiga-Regular, Lexend Giga"><tspan x="-51.255" y="0">store</tspan></text>
+  </g>
+</svg>
