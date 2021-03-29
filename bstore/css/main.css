@@ -389,7 +389,7 @@
 
   @media only screen and (max-width: 991px) {
     .search-area {
-      background-image: url("../../img/read-mob.svg");
+      background-image: url("../img/read-mob.svg");
       height: auto;
     }
     .nav-ul {
