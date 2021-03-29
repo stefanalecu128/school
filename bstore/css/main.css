@@ -7,10 +7,11 @@
     list-style-type: none;
     text-decoration: none;
   }
+ 
+  /* // #3d405b */
 
   body {
-    color: #3d405b;
-    font-family: "Helvetica";
+    color: var(--primaryColor);
     font-family: "DM Sans", sans-serif;
   }
   section {
@@ -33,9 +34,10 @@
     padding: 1rem;
     z-index: 1024;
     position: sticky;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%)
   }
   .logo {
-    color: #122847;
+    color: var(--accentColor);
   }
   .header-content {
     display: flex;
@@ -49,7 +51,7 @@
     margin-left: 1rem;
   }
   .nav-link {
-    color: #464854;
+    color: var(--gray1);
     font-weight: 700;
   }
 
@@ -62,7 +64,7 @@
     margin-left: 2rem;
     font-size: 1.125rem;
     color: #fff;
-    background: rgb(52, 63, 92);
+    background: var(--gray2);
     padding: 0.5rem 0.6rem;
     border-radius: 10px;
     outline: none;
@@ -73,7 +75,7 @@
     top: -8px;
     font-size: 1rem;
     right: -8px;
-    background: #bfbee7;
+    background: var(--secondColor);
     font-weight: 500;
     padding: 0 5px;
     border-radius: 30%;
@@ -154,6 +156,9 @@
   .product-img .img-resp {
     border-radius: 1.125rem;
   }
+  .product-text--author {
+    color: var(--gray1);
+  }
   .product-text {
     width: 100%;
     vertical-align: middle;
@@ -165,6 +170,7 @@
   }
   .product-price {
     font-weight: 700;
+    color: var(--accentColor);
     font-size: 1rem;
     transition: all 0.3s ease;
     position: absolute;
@@ -181,7 +187,7 @@
   }
   .product-details a {
     text-decoration: none;
-    color: #122847;
+    color: var(--accentColor);
   }
   .product-inner:hover .product-price {
     transform: translateX(100%);

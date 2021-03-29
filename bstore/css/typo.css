@@ -1,11 +1,11 @@
 :root {
-    --primaryColor: ;
-    --secondColor: ;
-    --accentColor: ;
-    --gray1: ;
-    --gray2: ;
-    --gray3: ;
-    --gray4: ;
+    --primaryColor: #272848;
+    --secondColor: #6D71F9;
+    --accentColor: #54c1fb;
+    --gray1: #444444;
+    --gray2: #9ba5a7;
+    --gray3: #cdd2d3;
+    --gray4: #f1f3f2;
     --mainTransition: all 0.3s linear;
 }
 
