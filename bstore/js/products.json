@@ -1,0 +1,58 @@
+{
+  "999":{
+     "coverBook":[
+        "https://stefanalecu128.github.io/scoala-informala-frontend/ecom/img/1.jpg"
+     ],
+     "titleBook":"Ninjalau",
+     "authorBook":"Amza Pellea",
+     "price":24.99
+  },
+  "1":{
+     "coverBook":[
+        "https://stefanalecu128.github.io/scoala-informala-frontend/ecom/img/2.jpg"
+     ],
+     "titleBook":"Ninjalau",
+     "authorBook":"Ion Creanga",
+     "price":24.99
+  },
+  "2":{
+     "coverBook":[
+        "https://stefanalecu128.github.io/scoala-informala-frontend/ecom/img/1.jpg"
+     ],
+     "titleBook":"Ninjalau",
+     "authorBook":"Eminescu Mihai",
+     "price":24.99
+  },
+  "3":{
+     "coverBook":[
+        "https://stefanalecu128.github.io/scoala-informala-frontend/ecom/img/2.jpg"
+     ],
+     "titleBook":"Ninjalau",
+     "authorBook":"Petre Saru",
+     "price":24.99
+  },
+  "4":{
+     "coverBook":[
+        "https://stefanalecu128.github.io/scoala-informala-frontend/ecom/img/2.jpg"
+     ],
+     "titleBook":"Ninjalau",
+     "authorBook":"Amza Pellea",
+     "price":24.99
+  },
+  "5":{
+     "coverBook":[
+        "https://stefanalecu128.github.io/scoala-informala-frontend/ecom/img/1.jpg"
+     ],
+     "titleBook":"Ninjalau",
+     "authorBook":"Mihai Creanga",
+     "price":24.99
+  },
+  "6":{
+     "coverBook":[
+        "https://stefanalecu128.github.io/scoala-informala-frontend/ecom/img/2.jpg"
+     ],
+     "titleBook":"Ninjalau",
+     "authorBook":"Amza Pellea",
+     "price":24.99
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <title>Booksy</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container header-content">
+        <a href="#"><h2 class="logo">Booksy</h2></a>
+        <a href="#" id="btnBurger" class="header__menu">
+          <span></span>
+          <span></span>
+        </a>
+        <nav>
+          <ul class="nav-ul" id="nav-ul">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="admin.html">Admin</a></li>
+          </ul>
+          <div class="menu-overlay"></div>
+        </nav>
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-shopping-basket"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </div>
+    <section class="hero-section">
+      <div class="container search-area">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h2 class="text-hero">What book do you want to read?</h2>
+            <div class="search">
+              <span class="search-bar--submit">
+                <i class="fas fa-book"></i>
+              </span>
+              <input
+                name="search"
+                type="text"
+                class="search-bar--icon"
+                placeholder="Search by Name, Author"
+              />
+              <button class="btn-search" onclick="search();">Search</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <main class="products-section">
+      <div class="container">
+
+          <div class="products-content">
+            <!-- <div class="product-inner">
+              <div class="product-img">
+                <img src="img/book-1.svg" alt="" class="img-resp" />
+              </div>
+              <div class="product-text">
+                <h3 class="product-text--title">Foxy Jump</h3>
+                <p class="product-text--author">N.R. Lioema</p>
+                <div class="product-price">
+                  <span>10.99 Lei</span>
+                </div>
+                <div class="product-details">
+                  <a href="#">Detalii</a>
+                </div>
+              </div>
+            </div> -->
+          
+        </div>
+
+         
+        </div>
+      </div>
+    </main>
+
+    
+    <div class="cart-overlay">
+      <div class="cart">
+      </div>
+    </div>
+
+    <footer class="footer"></footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>

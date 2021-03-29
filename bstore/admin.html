@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <title>Booksy Admin</title>
+  </head>
+  <body>
+    <div class="header">
+        <div class="container header-content">
+          <a href="index.html"><h2 class="logo">Booksy</h2></a>
+          <a href="#" id="btnBurger" class="header__menu">
+            <span></span>
+            <span></span>
+          </a>
+          <nav>
+            <ul class="nav-ul" id="nav-ul">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Admin</a></li>
+            </ul>
+          </nav>
+          <div class="cart-btn">
+            <span class="nav-icon">
+              <i class="fas fa-shopping-basket"></i>
+            </span>
+            <div class="cart-items">0</div>
+          </div>
+        </div>
+      </div>
+
+    <a href="/admin_item.html?id=0">Add new book</a>
+    <div class="products-content"></div>
+
+    <footer class="footer"></footer>
+    <script src="js/admin.js"></script>
+  </body>
+</html>

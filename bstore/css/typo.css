@@ -1,0 +1,27 @@
+:root {
+    --primaryColor: ;
+    --secondColor: ;
+    --accentColor: ;
+    --gray1: ;
+    --gray2: ;
+    --gray3: ;
+    --gray4: ;
+    --mainTransition: all 0.3s linear;
+}
+
+h1 {
+    font-size: 3rem;
+} 
+h2 {
+    font-size:2.25rem;
+}
+ h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.125rem;
+}
+h5 {
+    font-size: 0.875rem;
+}
+
