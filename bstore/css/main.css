@@ -323,12 +323,15 @@
   .products-content-admin {
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
   }
   .product-inner-admin {
     display: flex;
     align-items: center;
     border: 1px solid #e6e6e6;
+    margin-top: 1rem;
   }
+
   .product-img-admin {
     width: 10%;
     padding: 1rem;
@@ -350,9 +353,12 @@
     padding: 0.6rem 0.875rem;
     border-radius: 4px;
   }
+  .product-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
   
-
-
 
 
   /* <div class="product-img-admin">
@@ -451,5 +457,7 @@
   .footer {
     padding: 2rem;
     min-height: 15rem;
-    background: cornflowerblue;
+    background: #e6e6e6;
+    margin-top: 2rem;
+    text-align: center;
   }
