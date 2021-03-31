@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  </head>
+
+  <body class="container" onload="draw();">
+    <header>
+      <h2>Agenda telefonica</h2>
+    </header>
+    <section class="addPerson">
+      <form onsubmit="event.preventDefault(); adauga();">
+        <label for="nume">
+          Nume
+          <input type="text" name="nume" id="nume" />
+        </label>
+        <label for="nrTel">
+          Telefon
+          <input type="tel" name="nrTel"  id="nrTel" />
+        </label>
+        <div>
+         <input id="addBtn" type="submit" value="Adauga contact" class="btn"/>
+         <input id="editBtn" type="button" onclick="editSec();" class="hidden btn" value="Editeaza"/>
+		<input id="cancelBtn" type="button" onclick="cancel();" class="hidden btn" value="Cancel"/>
+        </div>
+      </form>
+    </section>
+    <table id="addPerson">
+      <thead>
+        <tr>
+          <th class="t-details">Nume</th>
+          <th class="t-details">Telefon</th>
+          <th class="t-action">Edit</th>
+          <th class="t-action">Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <td>alandala</td>
+          <td>03812381</td>
+        </tr> -->
+      </tbody>
+    </table>
+    <script src="app.js"></script>
+  </body>
+</html>

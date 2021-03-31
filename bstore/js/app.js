@@ -54,7 +54,6 @@ init().then(() => {
 });
 
 function draw() {
-  console.info(product);
   var str = "";
   
   Object.keys(product).map(id => {
