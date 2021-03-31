@@ -1,20 +1,36 @@
 let person = [
     {
-      name: "Ionut",
-      nrTel: "0723213153"
+      name: "Jean Petrea",
+      nrTel: 0373664897
     },
     {
-      name: "Popa",
-      nrTel: "0723213153"
+      name: "Gicu Grigore",
+      nrTel: 0331592849
     },
     {
-      name: "Dan",
-      nrTel: "0723213153"
+      name: "Răducu Simion",
+      nrTel: 0318003189
     },
     {
-      name: "Stefanita Alecu",
-      nrTel: "0723213153"
-    }
+      name: "Sergiu Simionescu",
+      nrTel: 0723213153
+    },
+    {
+        name: "Dana Marian",
+        nrTel: 0743732465
+      },
+      {
+        name: "Antonia Iordache",
+        nrTel: 0797058887
+      },
+      {
+        name: "Theodor Giurgiu",
+        nrTel: 0780293560
+      },
+      {
+        name: "Stan Boboc",
+        nrTel: 0793976689
+      }
   ];
   
   let index = -1;
