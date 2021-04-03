@@ -54,8 +54,8 @@ let person = [
   function edit(idx) {
     let persons = person[idx];
 
-    document.querySelector("[name='nume']").value = person.name;
-    document.querySelector("[name='nrTel']").value = person.nrTel;
+    document.querySelector("[name='nume']").value = persons.name;
+    document.querySelector("[name='nrTel']").value = persons.nrTel;
 
     index = idx;
 
