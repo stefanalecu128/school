@@ -1,35 +1,35 @@
 let person = [
     {
       name: "Jean Petrea",
-      nrTel: 0373664897
+      nrTel: "0373664897"
     },
     {
       name: "Gicu Grigore",
-      nrTel: 0331592849
+      nrTel: "0331592849"
     },
     {
       name: "Răducu Simion",
-      nrTel: 0318003189
+      nrTel: "0318003189"
     },
     {
       name: "Sergiu Simionescu",
-      nrTel: 0723213153
+      nrTel: "0723213153"
     },
     {
         name: "Dana Marian",
-        nrTel: 0743732465
+        nrTel: "0743732465"
       },
       {
         name: "Antonia Iordache",
-        nrTel: 0797058887
+        nrTel: "0797058887"
       },
       {
         name: "Theodor Giurgiu",
-        nrTel: 0780293560
+        nrTel: "0780293560"
       },
       {
         name: "Stan Boboc",
-        nrTel: 0793976689
+        nrTel: "0793976689"
       }
   ];
   
@@ -52,16 +52,30 @@ let person = [
   }
 
   function edit(idx) {
-    let persons = person[idx];
+    let contact = person[idx];
 
-    document.querySelector("[name='nume']").value = persons.name;
-    document.querySelector("[name='nrTel']").value = persons.nrTel;
+  document.querySelector("[name='nume']").value = contact.name;
+	document.querySelector("[name='nrTel']").value = contact.nrTel;
 
-    index = idx;
+  index = idx;
 
 	document.querySelector("#editBtn").classList.remove("hidden");
-    document.querySelector("#cancelBtn").classList.remove("hidden")
+  document.querySelector("#cancelBtn").classList.remove("hidden")
 	document.querySelector("#addBtn").classList.add("hidden");
+  }
+
+  function validate(name, phone) {
+    if (phone.length < 10) {
+      alert('Numarul este prea scurt');
+      return false;
+    }
+
+    if (name.length < 3) {
+      alert('Numele este prea scurt');
+      return false;
+    }
+
+    return true;
   }
 
   function editSec() {
@@ -69,9 +83,16 @@ let person = [
         return;
     }
 
-    let persons = person[index];
-    person.name = document.querySelector("[name='nume']").value;
-    person.nrTel = document.querySelector("[name='nrTel']").value;
+    let name = document.querySelector("[name='nume']").value;
+    let phone = document.querySelector("[name='nrTel']").value;
+
+    if (!validate(name, phone)) {
+      return;
+    }
+
+    person[index].name = name;
+    person[index].nrTel = phone;
+
     draw();
 
 	cancel();
@@ -97,11 +118,17 @@ let person = [
     let name = document.querySelector("[name='nume']").value;
     let nrTel = document.querySelector("[name='nrTel']").value;
   
-    
+    if (!validate(name, nrTel)) {
+      return;
+    }
+
     person.push({
       "name": name,
       "nrTel": nrTel
     });
 
     draw();
+    document.querySelector("form").reset();
   }
+
+ 
