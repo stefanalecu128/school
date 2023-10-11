@@ -91,7 +91,7 @@ nav {
 }
 
 .book-item input {
-  padding: 0.5rem;
+  padding: 0.5rem !important; 
 }
 .book-item input:focus {
   outline: none;
