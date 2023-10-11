@@ -82,7 +82,35 @@ nav {
 }
 
 /* --------------- End of Navbar ---------------- */
+.book-item > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 50%;
+}
 
+.book-item input {
+  padding: 0.5rem;
+}
+.book-item input:focus {
+  outline: none;
+  border: 2px solid var(--secondColor);
+}
+
+.btn-save,
+.btn-cancel,
+.cart-delete {
+  padding: 0.688rem 1rem;
+  cursor: pointer;
+  outline: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: none;
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+}
 /* --------------- Hero ---------------- */
 .hero-section {
 }
